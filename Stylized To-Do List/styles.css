@@ -1,0 +1,74 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main Todo List */
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list li {
+    margin-bottom: 20px;
+}
+
+/* Sub Item List */
+.sub-item {
+    list-style: none;
+    padding-left: 25px;
+    margin-top: 8px;
+}
+
+/* Remove text decoration from links */
+.sub-item-link {
+    text-decoration: none;
+}
+
+/* Unvisited link */
+.sub-item-link:link {
+    color: #2c7be5; /* Blue */
+}
+
+/* Visited link */
+.sub-item-link:visited {
+    color: #8e44ad; /* Purple */
+}
+
+/* Hover state */
+.sub-item-link:hover {
+    color: #e67e22; /* Orange */
+}
+
+/* Focus state */
+.sub-item-link:focus {
+    outline: 3px solid #2ecc71; /* Green outline */
+    outline-offset: 3px;
+}
+
+/* Active (clicked) state */
+.sub-item-link:active {
+    color: #e74c3c; /* Red */
+}
+
+/* Checkbox spacing */
+input[type="checkbox"] {
+    margin-right: 8px;
+}
