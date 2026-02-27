@@ -1,0 +1,52 @@
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+}
+
+/* Card container */
+.blog-post-card {
+  background-color: white;
+  width: 350px;
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 40px auto;
+}
+
+/* Image styling */
+.post-img {
+  width: 100%;
+  border-bottom: 3px solid gray;
+}
+
+/* Content area */
+.post-content {
+  padding: 20px;
+}
+
+/* Title and excerpt */
+.post-title {
+  color: darkblue;
+  margin: 15px;
+}
+
+.post-excerpt {
+  color: dimgray;
+  margin: 15px;
+}
+
+/* Read More button */
+.read-more {
+  color: white;
+  background-color: teal;
+  margin: 15px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.read-more:hover {
+  background-color: darkcyan;
+}
